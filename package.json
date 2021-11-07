@@ -15,11 +15,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "profile": "ndb .",
     "test": "CI=true react-scripts test --runInBand --no-cache",
     "test1": "npm run test -- src/App.test.tsx",
     "test2": "npm run test -- src/AppWithMuiRootImport.test.tsx",
     "test3": "npm run test -- src/AppWithMuiButtonImportOnly.test.tsx",
-    "profile": "ndb .",
+    "test4": "npm run test -- src/AppWithMuiAutomocking.test.tsx",
+    "test5": "npm run test -- src/AppWithMuiFactoryMocking.test.tsx",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
